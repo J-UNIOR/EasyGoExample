@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Easy-Go Canteen System</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: linear-gradient(135deg, #eef2f7, #ffffff); padding: 50px; text-align: center;">
+
+    <!-- Logo / Welcome Image -->
+    <img src="images/Easy-Go_Logo.png" alt="Easy-Go Canteen Logo" style="width: 120px; height: auto; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+
+    <h1 style="color: #333;">Welcome to EASY-GO CANTEEN SYSTEM</h1>
+    <p style="color: #555;">Select your user type to login or register</p>
+
+    <form method="get" action="login.jsp" style="margin: 30px auto; background: #fff; padding: 25px; border-radius: 10px; width: 320px; box-shadow: 0 0 12px rgba(0,0,0,0.1);">
+        <label for="role" style="display: block; margin-bottom: 10px; font-weight: bold;">Choose your role:</label>
+        <select name="role" id="role" required style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 6px; border: 1px solid #ccc;">
+            <option value="">-- Select Role --</option>
+            <option value="Student">Student</option>
+            <option value="Staff">Staff</option>
+            <option value="Canteen">Canteen</option>
+            <option value="Delivery">Delivery Personnel</option>
+            <option value="Corporate">Corporate/School</option>
+            <option value="Nutritionist">Nutritionist/Dietitian</option>
+            <option value="Administrator">Administrator</option>
+        </select>
+
+        <input type="submit" value="Login" style="width: 100%; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">
+    </form>
+
+    <p style="margin-top: 20px;">
+        New to Easy-Go? 
+        <a href="register.jsp" style="color: #007bff; text-decoration: none; font-weight: bold;">Register here</a>
+    </p>
+
+</body>
+</html>
